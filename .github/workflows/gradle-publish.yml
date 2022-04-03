@@ -39,6 +39,7 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_PASSWORD }}
         repository: 23212001/github_actions
+        tage: latest, ${{ github.run_number }}
 
     
       
